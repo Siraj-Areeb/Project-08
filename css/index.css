@@ -1,3 +1,10 @@
+body{
+    background-image:url(../images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin: 0px;
+}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -5,6 +12,7 @@ nav{
     align-items: center;
     padding-top: 40px;
 }
+
 .nav-items{
     display: flex;
     flex-direction: row;
@@ -15,10 +23,12 @@ nav{
     font-style: normal;
     font-weight: 400;
 }
+
 .nav-item{
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .signin-btn{
     padding: 10px 40px;
     border-radius: 20px;
@@ -26,33 +36,40 @@ nav{
     background: linear-gradient(to right,#7b7dff,#F686DD);
     color:#fff;
 }
-body{
-    background-image:url(../images/backcover.svg);
-    background-repeat: no-repeat;
-    background-position: top right;
-}
+
 .imgs-div{
-    display: inline;
-    /* flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; */
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
+
 .vector-img{
+    order: 3;
     position: relative;
-    bottom: 450px;
-    left: 450px;
+    top: 150px;
+    left: 150px;
 }
+
 .vector-dot{
+    order: 2;
     position: relative;
-    bottom: 530px;
-    left: 405px;
+    top: 170px;
+    left: 160px;
 }
+
 img[alt~="intro-img"]{
-    position: relative;
-    left: 310px;   
-    bottom: 360px;
+    order: 1;
 }
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
 .left-section{
     display:flex ;
     flex-direction: column;
@@ -61,6 +78,7 @@ img[alt~="intro-img"]{
     position: relative;
     top: 100px;
 }
+
 .left-section>h1{
     color: #3e49aa;
     font-family: 'Roboto';
