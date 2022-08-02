@@ -29,6 +29,12 @@ nav{
     padding-right: 20px;
 }
 
+.nav-item:hover{
+    color: #3f3f3f;
+    font-weight: 600;
+    transition: .5s;
+}
+
 .signin-btn{
     padding: 10px 40px;
     border-radius: 20px;
@@ -37,12 +43,20 @@ nav{
     color:#fff;
 }
 
+.signin-btn:hover{
+    color: #3f3f3f;
+    font-weight: 500;
+    transition: .5s;
+}
+
 .imgs-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
+    position: relative;
+    right: 80px;
 }
 
 .vector-img{
@@ -61,6 +75,8 @@ nav{
 
 img[alt~="intro-img"]{
     order: 1;
+    position: relative;
+    right: 80px;
 }
 
 .intro-section{
@@ -86,6 +102,7 @@ img[alt~="intro-img"]{
     font-weight: 800;
     font-size: 70px;
 }
+
 .left-section>h4{
     width: 400px;
     color: #3a3a3ab0;
@@ -94,6 +111,7 @@ img[alt~="intro-img"]{
     font-weight: 200;
     font-size: 20px;
 }
+
 .learn-more-btn{
     padding: 5px 5px;
     border-radius: 25px;
@@ -108,6 +126,9 @@ img[alt~="intro-img"]{
     position: relative;
     top: 60px;
 }
-/* .intro-section{
-    display: flex;
-} */
+
+.learn-more-btn:hover{
+    color: #3f3f3f;
+    font-weight: 500;
+    transition: .5s;
+}
