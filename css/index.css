@@ -132,3 +132,64 @@ img[alt~="intro-img"]{
     font-weight: 500;
     transition: .5s;
 }
+
+@media only screen and (max-width: 600px){
+    body{
+        background-size: 80vw;
+    }
+    .nav-item{
+        display: none;
+    }
+
+    img[alt~="intro-img"]{
+        width: 60vw;
+        opacity: 80%;
+        position: absolute;
+        bottom: 0px;
+        right: -100px;
+    }
+
+    .vector-img{
+        display: none;
+    }
+    
+    .vector-dot{
+        display: none;
+    }
+
+    .intro-section{
+        padding: 0%;
+        padding-top: 30px;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .left-section{
+        padding-left: 30px;
+        padding-right: 10px;
+        position: relative;
+        top: 0px;
+    }
+
+    .left-section>h1{
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .left-section>h4{
+        width: 50vw;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        z-index: 99;
+        color: #1b1b1bb0
+    }
+    
+    .learn-more-btn{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: -10px;
+    }
+}
